@@ -1,0 +1,70 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Ayrton Networks</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2024-01-02T12:33:57-07:00</updated>
+  <author>
+    <name>David Ayrton</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 David Ayrton </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Twelve Networking Truths</title>
+    <link href="http://localhost:4000/posts/firstpost/" rel="alternate" type="text/html" title="Twelve Networking Truths" />
+    <published>2024-01-02T05:34:00-07:00</published>
+  
+    <updated>2024-01-02T05:34:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/firstpost/</id>
+    <content src="http://localhost:4000/posts/firstpost/" />
+    <author>
+      <name>David Ayrton</name>
+    </author>
+
+  
+    
+    <category term="networking" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Fundamental Truths
+
+(1)  It Has To Work.
+
+(2)  No matter how hard you push and no matter what the priority,
+        you can’t increase the speed of light.
+
+    (2a) (corollary). No matter how hard you try, you can't make a
+         baby in much less than 9 months. Trying to speed this up
+         *might* make it slower, but it won't make it happen any
+         quicker.
+
+
+(3)  With sufficien...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
