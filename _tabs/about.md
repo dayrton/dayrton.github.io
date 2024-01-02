@@ -4,5 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+My name is David Ayrton
+
+I am currently employed as a network engineer and have been in IT since 2015
+
+I love all things technology - what stands out to me most is routing, wireless technologies, security, and automation (specifically around NetOps)
