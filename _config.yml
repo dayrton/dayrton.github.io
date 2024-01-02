@@ -28,8 +28,8 @@ url: ""
 github:
   username: dayrton # change to your github username
 
-linkedin:
-  username: tdavid-ayrton-895322205 # change to your twitter username
+#linkedin:
+#  username: david-ayrton-895322205 # change to your twitter username
 
 social:
   # Change to your full name.
@@ -42,7 +42,7 @@ social:
     - https://github.com/dayrton # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/david-ayrton-895322205
+    #- https://www.linkedin.com/in/david-ayrton-895322205
 
 google_site_verification: # fill in to your verification string
 
