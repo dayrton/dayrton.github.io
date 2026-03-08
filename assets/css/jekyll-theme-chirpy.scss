@@ -4,3 +4,95 @@
 @import 'main';
 
 /* append your custom style below */
+
+/* ===== Services Page ===== */
+
+.svc-grid { margin-top: 2rem; }
+
+.svc-card {
+  background: var(--card-bg);
+  border-radius: 0.625rem;
+  box-shadow: var(--card-shadow);
+  padding: 1.5rem;
+  height: 100%;
+  transition: background 0.3s ease;
+
+  &:hover { background: var(--card-hovor-bg); }
+
+  .svc-icon {
+    font-size: 2rem;
+    color: var(--link-color);
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: var(--text-muted-color);
+    margin-bottom: 0;
+  }
+}
+
+.svc-form-section { margin-top: 3rem; }
+
+.svc-form {
+  .form-label {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .form-control {
+    background-color: var(--button-bg);
+    border-color: var(--btn-border-color);
+    color: var(--text-color);
+    border-radius: 0.375rem;
+
+    &:focus {
+      border-color: var(--input-focus-border-color);
+      background-color: var(--button-bg);
+      color: var(--text-color);
+      box-shadow: 0 0 0 0.2rem rgba(0, 86, 178, 0.15);
+    }
+
+    &::placeholder { color: var(--text-muted-color); }
+  }
+
+  textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
+  }
+
+  .svc-submit-btn {
+    background-color: var(--link-color);
+    border: none;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 0.375rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+
+    &:hover { opacity: 0.85; }
+  }
+}
+
+#svc-success-msg {
+  display: none;
+  background: var(--prompt-tip-bg);
+  border-left: 4px solid var(--prompt-tip-icon-color);
+  padding: 1rem 1.25rem;
+  border-radius: 0.375rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+
+  i {
+    color: var(--prompt-tip-icon-color);
+    margin-right: 0.5rem;
+  }
+}
